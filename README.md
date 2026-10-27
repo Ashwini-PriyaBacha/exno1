@@ -218,3 +218,13 @@ sns.boxplot(data=cleaned_df)
 
 # Result
 Thus the data cleaning process on the given dataset is executed successfully.
+
+
+
+
+# Summary:
+
+The aim of this experiment was to read a dataset, identify and handle missing values, detect outliers, and prepare clean data for further analysis. Using Python libraries such as Pandas, NumPy, Seaborn, and SciPy, the loan dataset was analyzed using functions like info(), describe(), and isnull().sum(). Missing values were handled using methods such as dropna(), fillna(), forward fill, backward fill, and mean imputation. Outliers were detected using boxplots, the Interquartile Range (IQR) method, and the Z-score method. This experiment demonstrated the importance of data cleaning in improving data quality and reliability.
+
+
+Through this experiment, I learned how to load and analyze CSV files using Pandas, identify and handle missing values using different techniques, and detect outliers using boxplots, IQR, and Z-score methods. I also learned how to use basic statistical functions to understand datasets and gained practical knowledge of preparing clean data for accurate analysis and future machine learning applications.
